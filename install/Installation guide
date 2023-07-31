@@ -1,0 +1,21 @@
+1) Load image to Raspberry Pi
+2) Create empty ssh file in boot partition
+3) Copy wpa_supplicant.conf to /etc/wpa_supplicant folder
+
+wpa_supplicant.conf example:
+
+```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=ru
+
+network={
+    ssid="Network name"
+    psk="Password"
+    key_mgmt=WPA-PSK
+}
+```
+
+4) First system loading is very long
+5) Connect via ssh and change password
+6) Run setup.sh script

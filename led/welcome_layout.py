@@ -14,4 +14,4 @@ WELCOME_LAYOUT = {
     'MOVES': []
 }
 
-WELCOME_LAYOUT_COLORS = {'START': COLORS['pink 2'], 'TOP': COLORS['melon'], 'MOVES': COLORS['orange 1']}
+WELCOME_LAYOUT_COLORS = {'START': COLORS['indian red 1'], 'TOP': COLORS['orange 1'], 'MOVES': COLORS['melon']}

@@ -124,7 +124,7 @@ class MoonApplication(dbus.service.Object):
             start_adv(self.logger)
 
     @dbus.service.signal(dbus_interface="com.moonboard", signature="s")
-    def new_problem(self, problem: str):
+    def new_problem(self, problem):
         self.logger.info('Signal new problem: ' + str(problem))
 
     def get_path(self):

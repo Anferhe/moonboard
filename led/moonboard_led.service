@@ -1,6 +1,6 @@
 [Unit]
 Description= moon board app service
-After=multi-user.target com.moonboard.service
+After=multi-user.target com.moonboard
 
 [Service]
 User=root
@@ -9,4 +9,3 @@ ExecStart=/usr/bin/python3 /home/pi/moonboard/led/moonboard_led_service.py
 
 [Install]
 WantedBy=multi-user.target
-
